@@ -9,15 +9,53 @@ iYourl是一个全新的新闻聚合站点，口号：提前于新闻发生，�
 
 技术架构
 =
-+ Linux(centOS 5.4)+Nginx+MySQL+PHP  
++ Linux(CentOS)+Nginx+MySQL+PHP  
 + 采用遵循MVC思想的PHP开发框架CodeIgniter
 + 兼容性很好的JS库Jquery
 + 前端工具包Bootstrap v2
 
 安装
 =
-LNMP  
-数据库：导入根目录下db文件夹中的iyourl.sql
+*  配置LNMP环境（以CentOS5.4 32为例）  
+   1. 安装必须的组件  
+   ```sh
+   yum -y install gcc gcc-c++ autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel libidn libidn-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers
+   ```
+   2. 下载LNMP   
+   ```sh
+   wget http://catlnmp.googlecode.com/files/lnmp1.4.tar.gz
+   ```
+   3. 解压缩	  
+   ```sh
+   tar zxvf lnmp1.4.tar.gz
+   ```
+   4. 进入该目录  
+   ```sh
+   cd lnmp
+   ```
+   5. 给脚本添加执行权限  
+   ```sh
+   chmod +x *.sh
+   ```
+   6. 开始安装  
+   ```sh
+   ./install.sh
+   ``` 	
+   
+然后会弹出一个对话框叫你输入你默认绑定域名，再之后输入mysql 的ROOT 密码。
+
+这之后就是漫长的等待，预计半个小时。
+
+OK  完成后。  
+
+#### 程序安装路径：
+MySQL : /usr/local/mysql
+PHP : /usr/local/php
+Nginx : /usr/local/nginx
+PHPMyAdmin /home/www/phpmyadmin
+Web目录 /home/www
+FTP根目录 /home/www
+* 数据库：导入根目录下db文件夹中的iyourl.sql
 
 TodoList
 =
