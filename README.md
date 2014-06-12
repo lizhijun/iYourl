@@ -93,11 +93,11 @@ TodoList
  + 添加评论删除功能（已完成）
  + 显示算法优化：采用先序排序算法进行改进（已完成）
 
-MoreNeedTodo
+客户端App
 =
 API接口：http://lizhijun.github.io/91toutiao/
 + Android App (寻开发者)
-+ iOS App
++ iOS App (寻开发者)
 
 License
 --
