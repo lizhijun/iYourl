@@ -1,5 +1,5 @@
 
-###这个版本还是最开始的原型UI版本,等开发完善了再完整的开源。
+###这个版本还是最开始的原型UI版本,等开发完善了再完整地开源。
 
 iYourl
 =
@@ -57,7 +57,7 @@ iYourl是一个社会化新闻聚合站点，口号：提前于新闻发生，�
    ./install.sh
    ``` 	
    
-然后会弹出一个对话框叫你输入你默认绑定域名，再之后输入mysql 的ROOT 密码。
+然后会弹出一个对话框叫你输入你默认绑定域名，再之后输入 mysql 的 ROOT 密码。
 
 这之后就是漫长的等待，预计半个小时。
 
@@ -70,7 +70,7 @@ Nginx : /usr/local/nginx
 PHPMyAdmin /home/www/phpmyadmin  
 Web目录 /home/www  
 FTP根目录 /home/www  
-* 数据库：导入根目录下db文件夹中的iyourl.sql
+* 数据库：导入根目录下 db 文件夹中的 iyourl.sql
 
 TodoList
 =
@@ -82,7 +82,7 @@ TodoList
  + 注册登录（已完成）
  + 邮件分享功能（已完成）
  + 浏览器兼容（已完成）
- + 响应是设计（采用Bootstrap v3 重写）  （已完成）
+ + 响应式设计（采用 Bootstrap v3 重写）  （已完成）
 2. 加入排序算法  
  + 热门排名 （已完成） 
  + 上升最快（已完成）
